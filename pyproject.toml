@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "extract-images-from-pdf"
+version = "0.1.0"
+description = ""
+authors = ["tenado <690784374@qq.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10,<3.14"
+pdf2image = "^1.17.0"
+pyinstaller = "^6.12.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
